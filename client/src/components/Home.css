@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #181621;
+}
+.home {
+  margin: 30px 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.app__header > h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+.app__header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.right__nav {
+  display: flex;
+  align-items: center;
+}
+.user-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: large;
+  margin: auto 25px;
+  border: 1px solid #333042;
+  border-radius: 10px;
+  background-color: #333042;
+  padding: 16px 25px;
+}
+.app__dropdown .MuiSelect-outlined {
+  background-color: #333042;
+  border-radius: 10px;
+  color: #fff !important;
+}
+
+.app__dropdown-name {
+  font-size: large !important;
+}
+
+.MuiMenuItem-root {
+  margin-top: 0;
+  color: #fff !important;
+  border-bottom: 1px solid rgb(94, 94, 94) !important;
+}
+.MuiList-root,
+.MuiPaper-root {
+  background-color: #333042 !important;
+}
+.app__left {
+  flex: 0.8;
+}
+.MuiCardContent-root {
+  background-color: #333042;
+}
+.app__graph {
+  height: 200px;
+  margin: 0;
+}
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+.app__rightTableTitle {
+  text-transform: capitalize;
+  color: #dadada;
+}
+.app__rightGraphTitle {
+  text-transform: capitalize;
+  color: #dadada;
+  margin: 20px 0;
+}
+.leaflet-popup-content-wrapper {
+  background-color: #333042 !important;
+}
+.info-name {
+  color: #dadada !important;
+}
+.info-container {
+  color: #dadada !important;
+  width: 220px !important;
+}
+
+@media (max-width: 1500px) {
+  .app__header > h1 {
+    font-size: 1.7rem;
+  }
+  .user-link,
+  .app__dropdown-name {
+    font-size: 1rem !important;
+  }
+
+  .user-link {
+    margin: auto 10px !important;
+  }
+}
+
+@media (max-width: 1375px) {
+  .user-link {
+    font-size: 0.85rem !important;
+    padding: 13px 25px !important;
+  }
+  .MuiSelect-outlined {
+    font-size: 0.85rem !important;
+    padding: 13px 30px !important;
+  }
+}
+
+@media (max-width: 1335px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .table__left {
+    margin: auto 5%;
+  }
+
+  .table__right {
+    margin: 3% 5%;
+  }
+
+  .app__left {
+    margin: 0 5% 3% 5%;
+    order: -1;
+  }
+  .app__header > h1 {
+    font-size: 2rem;
+  }
+  .user-link,
+  .MuiSelect-outlined {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 675px) {
+  .app__header {
+    flex-direction: column;
+  }
+  .app__header > h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  .user-link {
+    margin: auto 20px !important;
+  }
+  .MuiSelect-outlined {
+    padding-right: 30px !important;
+  }
+  .app__stats {
+    flex-direction: column;
+    text-align: center;
+  }
+  .infoBox:not(:last-child) {
+    margin: 0 0 3% 0 !important;
+  }
+}
+
+@media (max-width: 525px) {
+  .user-link,
+  .MuiSelect-outlined {
+    font-size: 0.825rem !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .right__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-link {
+    margin: 15px 0 15px 0 !important;
+  }
+}
