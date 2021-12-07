@@ -21,4 +21,4 @@ https://coviz-19.vercel.app (Don't forget to post something to let us know about
 
 ## TEAM
 
-Sai Thatigotla (https://github.com/saithat), Gandhar Viragi (https://github.com/Gandhar-Viragi), Rakil Ahmed (https://github.com/rakilzzz)
+Sai Thatigotla (https://github.com/saithat), Gandhar Viragi (https://github.com/Gandhar-Viragi), Rakil Ahmed (https://github.com/rakilahmed)
