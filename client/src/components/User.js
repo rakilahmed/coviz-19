@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import Loader from 'react-loader-spinner';
 import axios from 'axios';
 
-import SideBar from './SideBar';
-
 function User() {
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');
@@ -99,7 +97,6 @@ function User() {
         <h1>User Dashboard</h1>
 
         <div className="right__nav-two">
-          <SideBar />
           <Link className="user-link-back" to="/">
             Back To Home
           </Link>

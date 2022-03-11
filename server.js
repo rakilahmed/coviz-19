@@ -6,7 +6,7 @@ require('dotenv').config();
 
 // App + PORT + Database URL
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 const CONNECTION_URI = process.env.MONGODB_URI || process.env.DB_URI;
 
 app.use(express.json());
@@ -16,10 +16,10 @@ const covidRoutes = require('./routes/data-routes');
 app.use('/api', covidRoutes);
 
 if (process.env.STATIC === "production") {
-  app.use(express.static('client/build'));
+  app.use(express.static(path.join(__dirname, 'client', 'build')));
 
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build'))
+  app.get('/*', (_, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
   });
 }
 

@@ -169,11 +169,7 @@ body {
 }
 
 @media (max-width: 475px) {
-  .right__nav {
-    flex-direction: column;
-    align-items: center;
-  }
   .user-link {
-    margin: 15px 0 15px 0 !important;
+    margin: 15px 15px 15px 0 !important;
   }
 }

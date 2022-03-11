@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.1",
     "chart.js": "^2.9.3",
-    "http-proxy-middleware": "^0.19.1",
     "leaflet": "^1.6.0",
     "loader": "^2.1.1",
     "numeral": "^2.0.6",
@@ -22,7 +21,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
     "react-spring": "^8.0.27",
-    "react-twitter-embed": "^3.0.3",
     "toasted-notes": "^3.2.0"
   },
   "scripts": {
@@ -47,7 +45,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000/",
   "description": "## LIVE",
   "main": "index.js",
   "keywords": [],

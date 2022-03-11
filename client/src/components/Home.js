@@ -14,7 +14,6 @@ import InfoBox from './InfoBox';
 import Map from './Map';
 import Table from './Table';
 import { sortData, prettyPrintStat } from './util';
-import SideBar from './SideBar';
 
 import LineGraph from './LineGraph';
 import 'leaflet/dist/leaflet.css';
@@ -124,7 +123,6 @@ function Home() {
           <div className="app__header">
             <h1>CoViz-19</h1>
             <div className="right__nav">
-              <SideBar />
               <Link className="user-link" to="/user">
                 User Dashboard
               </Link>
